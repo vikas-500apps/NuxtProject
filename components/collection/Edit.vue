@@ -8,7 +8,7 @@
             <!-- Enter Name-->
             <input id="name" v-model="form.name" type="text" name="name"
               class="block rounded-md border-0 py-2 px-3 shadow-sm ring-1 ring-inset ring-gray-300 w-full placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-300 sm:text-sm sm:leading-6 mt-2 sm:mx-[-12px]"
-              placeholder="Enter Template Name" required />
+              placeholder="Enter Name" required />
           </div>
         </div>
       </div>
@@ -17,13 +17,13 @@
         <div class="flex justify-between items-center">
           <input v-model="form.subject" type="text"
             class="block px-3 rounded-md border-0 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-300 sm:text-sm sm:leading-6 w-full"
-            placeholder="Enter Template Subject" required />
+            placeholder="Enter  Subject" required />
         </div>
         <!-- Subject ends-->
         <!--  From body -->
         <textarea v-model="form.body" rows="4"
           class="p-4 mt-4 h-[calc(100vh-350px)] block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-300 sm:py-1.5 sm:text-sm sm:leading-6"
-          placeholder="Add Template Body..." required />
+          placeholder="Add your message here..." required />
 
       </div>
       <!-- Buttons-->
